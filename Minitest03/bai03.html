@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 03</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .form-input{
+            margin: 0 0 20px 20px;
+        }
+        .form-content{
+            width: 330px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body style="background-color: aqua">
+    <div class="form-content">
+        <label>Nhập số thứ 1 </label>
+        <input type="number" name="numberOne" id="numberOne" class="form-input"/> <br>
+        <label>Nhập số thứ 2</label>
+        <input type="number" name="numberTwo" id="numberTwo" class="form-input" /> <br>
+        <label>Kết quả</label>
+        <input type="number" name="result"  id="result" disabled class="form-input" /> <br>
+
+        <button type="button" onclick="tinhTong()" class="form-control">Tổng</button>
+        <button type="button" onclick="tinhHieu()" class="form-control">Hiệu</button>
+        <button type="button" onclick="tinhTich()" class="form-control">Tích</button>
+        <button type="button" onclick="tinhThuong()" class="form-control">Thương</button>
+<!--        <button type="reset" class="form-control">Nhập lại</button>-->
+
+    </div>
+    <script src="js/bai03.js"></script>
+</body>
+</html>
